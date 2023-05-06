@@ -1,0 +1,32 @@
+.aside-uno, .aside-dos, .aside-tres, .aside-cuatro {
+    flex: 30%;
+    background-color: var(--color-back);
+    padding: 20px;
+}
+
+.aside-uno h2, .aside-uno h3, .aside-dos h2, .aside-dos h3, .aside-tres h2, .aside-tres h3, .aside-cuatro h2, .aside-cuatro h3 {
+    color: var(--color-primary);
+}
+
+.video-link img, .video-link-dos img, .video-link-tres img {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.video-link h4, .video-link-dos h4, .video-link-tres h4 {
+    opacity: 0;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    transition: all 0.3s;
+}
+
+.video-link:hover h4, .video-link-dos:hover h4, .video-link-tres:hover h4 {
+    opacity: 1;
+}

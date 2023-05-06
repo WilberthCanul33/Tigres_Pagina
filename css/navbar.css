@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--color-primary-dark);
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: var(--color-primary);
+}
+

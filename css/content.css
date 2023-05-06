@@ -1,0 +1,52 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-dos {
+    display: none;
+    flex-wrap: wrap;
+
+}
+
+.row-tres {
+    display: none;
+    flex-wrap: wrap;
+
+}
+
+.row-cuatro {
+    display: none;
+    flex-wrap: wrap;
+
+}
+
+.main, .main-dos, .main-tres, .main-cuatro {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.main h2, .main-dos h2, .main-tres h2, .main-cuatro h2 {
+    color: var(--color-primary);
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.main img, .main-dos img, .main-tres img, .main-cuatro img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.main .read-more, .main-dos .read-more, .main-tres .read-more, .main-cuatro .read-more {
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main .read-more:hover, .main-dos .read-more:hover, .main-tres .read-more:hover, .main-cuatro .read-more:hover {
+    background-color: var(--color-primary-dark);
+}
